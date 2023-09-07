@@ -16,7 +16,7 @@ const Pricing = ({ header, prices }: PricingProps) => (
               className="col-span-3 mx-auto flex w-full sm:col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-1"
               key={`item-pricing-${index}`}
             >
-              <div className="card relative flex w-full max-w-sm flex-col justify-between text-center">
+              <div className=" bg-slate-800 card relative flex w-full max-w-sm flex-col justify-between text-center">
                 {hasRibbon && ribbonTitle && (
                   <div className="absolute right-[-5px] top-[-5px] z-[1] h-[100px] w-[100px] overflow-hidden text-right">
                     <span className="ribbon">{ribbonTitle}</span>
