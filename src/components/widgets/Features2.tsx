@@ -23,7 +23,7 @@ const Features2 = ({ header, items }: FeaturesProps) => (
                   {Icon && <Icon className="h-10 w-10" />}
                   <div className="ml-4 text-xl font-bold">{title}</div>
                 </div>
-                {description && <p className="text-md mt-4 text-gray-500 dark:text-gray-400">{description}</p>}
+                {description && <p className="text-md mt-4 text-gray-100 dark:text-gray-100">{description}</p>}
               </a>
             ) : (
               <div className="relative flex min-w-[22em] flex-col rounded border border-transparent bg-white p-6 shadow-lg transition hover:shadow-md dark:border-slate-800 dark:bg-slate-900">
@@ -31,7 +31,7 @@ const Features2 = ({ header, items }: FeaturesProps) => (
                   {Icon && <Icon className="h-10 w-10" />}
                   <div className="ml-4 text-xl font-bold">{title}</div>
                 </div>
-                {description && <p className="text-md mt-4 text-gray-500 dark:text-gray-400$7$750 50 $750 ">{description}</p>}
+                {description && <p className="text-md mt-4 text-gray-100 dark:text-gray-100$7$750 50 $750 ">{description}</p>}
               </div>
             )}
           </Fragment>
