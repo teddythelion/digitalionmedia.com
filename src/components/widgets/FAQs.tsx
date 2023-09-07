@@ -20,7 +20,7 @@ const FAQs = ({ header, items }: FAQsProps) => (
                   />
                   {title}
                 </h3>
-                <div className="text-gray-700 dark:text-gray-400">{description}</div>
+                <div className="text-white dark:text-gray-100">{description}</div>
               </div>
             </div>
           ))}
