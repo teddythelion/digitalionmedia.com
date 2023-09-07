@@ -4,7 +4,7 @@ import CTA from '../common/CTA';
 import HeaderWidget from '../common/HeaderWidget';
 
 const Pricing = ({ header, prices }: PricingProps) => (
-  <section className="bg-primary-50 dark:bg-slate-800" id="pricing"  style={{
+  <section className="bg-slate-800 dark:bg-slate-800" id="pricing"  style={{
     backgroundColor:"black",
     }}>
     <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
@@ -23,14 +23,14 @@ const Pricing = ({ header, prices }: PricingProps) => (
                   </div>
                 )}
                 <ul className="px-2 py-0">
-                  <li className="text-center text-xl font-medium uppercase leading-6 tracking-wider text-gray-800 dark:text-slate-400">
+                  <li className="text-center text-xl font-medium uppercase leading-6 tracking-wider text-slate-300 dark:text-slate-300">
                     {title}
                   </li>
                   <li className="mt-5 mb-2.5 flex items-center justify-center text-center font-semibold">
                     <span className="text-5xl">$</span>
                     <span className="text-6xl">{value}</span>
                   </li>
-                  <li className="mb-7 text-center text-base font-medium capitalize leading-6 text-gray-600 dark:text-slate-400">
+                  <li className="mb-7 text-center text-base font-medium capitalize leading-6 text-slate-400 dark:text-slate-400">
                     {period}
                   </li>
                   {texts &&
