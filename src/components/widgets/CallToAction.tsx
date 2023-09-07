@@ -15,7 +15,7 @@ const CallToAction = (props: { data: CallToActionProps }) => {
                 {title}
               </h2>
             )}
-            {subtitle && <p className="text-xl text-gray-600 dark:text-slate-400">{subtitle}</p>}
+            {subtitle && <p className="text-xl text-gray-100 dark:text-slate-100">{subtitle}</p>}
             {text && href && (
               <div className="mt-6 sm:mx-auto sm:w-fit">
                 <CTA data={callToAction as CallToAction} />
