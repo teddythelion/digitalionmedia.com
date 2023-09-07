@@ -23,7 +23,7 @@ export default function RootLayout({ children }: LayoutProps) {
 <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300&family=Montserrat+Subrayada&display=swap" rel="stylesheet"></link>
         
          </head>
-      <body className="bg-white tracking-tight text-gray-300 antialiased dark:bg-slate-900 dark:text-slate-300"   style={{
+      <body className="bg-white tracking-tight text-gray-100 antialiased dark:bg-slate-900 dark:text-slate-100"   style={{
       backgroundColor:"black",
       }}>
         <Providers>
