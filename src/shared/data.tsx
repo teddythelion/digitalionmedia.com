@@ -134,7 +134,9 @@ export const heroData: HeroProps = {
   },
   callToAction2: {
     text: 'Learn more',
-    href: '/',
+    href: '/faqs',    
+    targetBlank: false,
+    btnType: 'primary',
   },
   image: {
     src: heroImg,
@@ -199,33 +201,33 @@ export const faqsData: FAQsProps = {
   header: {
     title: 'Frequently Asked Questions',
     subtitle:
-      'Duis turpis dui, fringilla mattis sem nec, fringilla euismod neque. Morbi tincidunt lacus nec tortor scelerisque pulvinar.',
+      'Common queastions that will arrise are here. Suprisingly, the answers to questions you didn\'t even know you needed to know are here too.',
     highlight: 'FAQS',
   },
   items: [
     {
-      title: 'Who we are and what we do?',
-      description: `Nunc mollis tempor quam, non fringilla elit sagittis in. Nullam vitae consectetur mi, a elementum arcu. Sed laoreet, ipsum et vehicula dignissim, leo orci pretium sem, ac condimentum tellus est quis ligula.`,
+      title: 'What problems does DLM solve?',
+      description: `DLM understands the pain points that all businesses deal with. Is my service message clear? Is my product and or brand consistent with my content etc. etc? `,
     },
     {
       title: 'What values and principles guide our work?',
-      description: `Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer eleifend vestibulum nisl in iaculis. Mauris dictum ac purus vestibulum auctor. Praesent imperdiet lectus et massa faucibus, quis viverra massa rhoncus.`,
+      description: `Admittedely, Digitla Lion Media is representative of all values and core principals. We believe in true diversity. Discriminatory practices are unheard of in our organization, not only because we are literally comprised of all demographics, , but the data is clear in that the greatest strengths are within the most diverse groups.`,
     },
     {
       title: 'What is our experience?',
-      description: `Mauris vitae eros a dui varius luctus. Suspendisse rutrum, sapien nec blandit bibendum, justo sapien sollicitudin erat, id aliquam sapien purus quis leo. Aliquam vulputate vestibulum consectetur.`,
+      description: `Not only has our founder and CEO worked along side companies like The HardRock, Planet Hollywood and Entertainment behemoth Five Fingered Death Punch, but he also has experience with Social Services programs, Salvation Army, Reintegration Homes for veterans Like Clear Water Residential and is active in the Rising Stars Program at Riverside City College.`,
     },
     {
       title: 'What is our team like?',
-      description: `Nunc dapibus lacinia ipsum ut elementum. Integer in pretium sapien. Ut pretium nisl mauris, ut rutrum justo condimentum id. Etiam aliquet, arcu at iaculis laoreet, est arcu egestas sapien, eget sollicitudin odio orci et nunc.`,
+      description: `Diverse, Diverse, Diverse. All races, religions, orientations and cultures are considered our family. Differences of ethos create solution sets that can only be achieved from the widest perspectives, so we are all inclusive and open to new paradigms-- if they contribute positively to our communuties.`,
     },
     {
-      title: 'How do we engage with the community?',
-      description: `Duis in maximus mauris, id eleifend mauris. Nam a fringilla arcu. Curabitur convallis, tellus non aliquet rhoncus, lacus massa auctor eros, in interdum lectus augue sed augue. Fusce tempor ex id faucibus efficitur.`,
+      title: 'What role does DLM play in your business?',
+      description: `Working with governmental and religious entities have required understanding of OSHA, Hippa, EEOC and FSLA(just to name a few) and we fully understand the unwritten societal nuance That lives in between concrete law. Scammers, Hustlers and hackers are our bread and butter and educate us on how to best protect our clients from any and all malficence. Thus, we not only create solutions from this understanding but are your confidant and consultant in matters of uncertainty which require empathy and at times robust discretion.`,
     },
     {
-      title: 'What support channels do we offer?',
-      description: `Nullam imperdiet sapien tincidunt erat dapibus faucibus. Vestibulum a sem nec lorem imperdiet scelerisque non sed lacus. Ut pulvinar id diam vitae auctor. Nam tempus, neque et elementum consectetur, ex ipsum pulvinar risus, vel sodales ligula tortor eu eros.`,
+      title: 'Are you available when you are needed.',
+      description: `We are available 24/7 for questions, and technical assistance is given according to priority and availability. BUt, all concerns and technical issues are dealt with immediately as humanly possible.`,
     },
   ],
 };
@@ -235,33 +237,33 @@ export const faqsData2: FAQsProps = {
   header: {
     title: 'Frequently Asked Questions',
     subtitle:
-      'Duis turpis dui, fringilla mattis sem nec, fringilla euismod neque. Morbi tincidunt lacus nec tortor scelerisque pulvinar.',
+      'Hopefully these faq\'s will give you an insight into the type of company DLM is.',
     highlight: 'FAQS',
   },
   items: [
     {
-      title: 'What do I need to start?',
-      description: `Nunc mollis tempor quam, non fringilla elit sagittis in. Nullam vitae consectetur mi, a elementum arcu. Sed laoreet, ipsum et vehicula dignissim, leo orci pretium sem, ac condimentum tellus est quis ligula.`,
+      title: 'What problems does DLM solve?',
+      description: `DLM understands the pain points that all businesses deal with. Is my service message clear? Is my product and or brand consistent with my content etc. etc? `,
     },
     {
-      title: 'How to install the NextJS + Tailwind CSS template?',
-      description: `Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer eleifend vestibulum nisl in iaculis. Mauris dictum ac purus vestibulum auctor. Praesent imperdiet lectus et massa faucibus, quis viverra massa rhoncus.`,
+      title: 'What values and principles guide our work?',
+      description: `Admittedely, Digitla Lion Media is representative of all values and core principals. We believe in true diversity. Discriminatory practices are unheard of in our organization, not only because we are literally comprised of all demographics, , but the data is clear in that the greatest strengths are within the most diverse groups.`,
     },
     {
-      title: "What's something that you completely don't understand?",
-      description: `Mauris vitae eros a dui varius luctus. Suspendisse rutrum, sapien nec blandit bibendum, justo sapien sollicitudin erat, id aliquam sapien purus quis leo. Aliquam vulputate vestibulum consectetur.`,
+      title: 'What is our experience?',
+      description: `Not only has our founder and CEO worked along side companies like The HardRock, Planet Hollywood and Entertainment behemoth Five Fingered Death Punch, but he also has experience with Social Services programs, Salvation Army, Reintegration Homes for veterans Like Clear Water Residential and is active in the Rising Stars Program at Riverside City College.`,
     },
     {
-      title: "What's an example of when you changed your mind?",
-      description: `Nunc dapibus lacinia ipsum ut elementum. Integer in pretium sapien. Ut pretium nisl mauris, ut rutrum justo condimentum id. Etiam aliquet, arcu at iaculis laoreet, est arcu egestas sapien, eget sollicitudin odio orci et nunc.`,
+      title: 'What is our team like?',
+      description: `Diverse, Diverse, Diverse. All races, religions, orientations and cultures are considered our family. Differences of ethos create solution sets that can only be achieved from the widest perspectives, so we are all inclusive and open to new paradigms-- if they contribute positively to our communuties.`,
     },
     {
-      title: 'What is something that you would really like to try again?',
-      description: `Duis in maximus mauris, id eleifend mauris. Nam a fringilla arcu. Curabitur convallis, tellus non aliquet rhoncus, lacus massa auctor eros, in interdum lectus augue sed augue. Fusce tempor ex id faucibus efficitur.`,
+      title: 'What role does DLM play in your business?',
+      description: `Working with governmental and religious entities have required understanding of OSHA, Hippa, EEOC and FSLA(just to name a few) and we fully understand the unwritten societal nuance That lives in between concrete law. Scammers, Hustlers and hackers are our bread and butter and educate us on how to best protect our clients from any and all malficence. Thus, we not only create solutions from this understanding but are your confidant and consultant in matters of uncertainty which require empathy and at times robust discretion.`,
     },
     {
-      title: 'If you could only ask one question to each person you meet, what would that question be?',
-      description: `Nullam imperdiet sapien tincidunt erat dapibus faucibus. Vestibulum a sem nec lorem imperdiet scelerisque non sed lacus. Ut pulvinar id diam vitae auctor. Nam tempus, neque et elementum consectetur, ex ipsum pulvinar risus, vel sodales ligula tortor eu eros.`,
+      title: 'Are you available when you are needed.',
+      description: `We are available 24/7 for questions, and technical assistance is given according to priority and availability. BUt, all concerns and technical issues are dealt with immediately as humanly possible.`,
     },
   ],
 };
@@ -276,28 +278,28 @@ export const faqs3Data: FAQsProps = {
   },
   items: [
     {
-      title: 'Which plan is best for me?',
-      description: `Nunc mollis tempor quam, non fringilla elit sagittis in. Nullam vitae consectetur mi, a elementum arcu. Sed laoreet, ipsum et vehicula dignissim, leo orci pretium sem, ac condimentum tellus est quis ligula.`,
+      title: 'What problems does DLM solve?',
+      description: `DLM understands the pain points that all businesses deal with. Is my service message clear? Is my product and or brand consistent with my content etc. etc? `,
     },
     {
-      title: 'What are my payment options?',
-      description: `Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer eleifend vestibulum nisl in iaculis. Mauris dictum ac purus vestibulum auctor. Praesent imperdiet lectus et massa faucibus, quis viverra massa rhoncus.`,
+      title: 'What values and principles guide our work?',
+      description: `Admittedely, Digitla Lion Media is representative of all values and core principals. We believe in true diversity. Discriminatory practices are unheard of in our organization, not only because we are literally comprised of all demographics, , but the data is clear in that the greatest strengths are within the most diverse groups.`,
     },
     {
-      title: 'How do I change my plan to a different one?',
-      description: `Mauris vitae eros a dui varius luctus. Suspendisse rutrum, sapien nec blandit bibendum, justo sapien sollicitudin erat, id aliquam sapien purus quis leo. Aliquam vulputate vestibulum consectetur.`,
+      title: 'What is our experience?',
+      description: `Not only has our founder and CEO worked along side companies like The HardRock, Planet Hollywood and Entertainment behemoth Five Fingered Death Punch, but he also has experience with Social Services programs, Salvation Army, Reintegration Homes for veterans Like Clear Water Residential and is active in the Rising Stars Program at Riverside City College.`,
     },
     {
-      title: 'What happen at the end of my free trial?',
-      description: `Nunc dapibus lacinia ipsum ut elementum. Integer in pretium sapien. Ut pretium nisl mauris, ut rutrum justo condimentum id. Etiam aliquet, arcu at iaculis laoreet, est arcu egestas sapien, eget sollicitudin odio orci et nunc.`,
+      title: 'What is our team like?',
+      description: `Diverse, Diverse, Diverse. All races, religions, orientations and cultures are considered our family. Differences of ethos create solution sets that can only be achieved from the widest perspectives, so we are all inclusive and open to new paradigms-- if they contribute positively to our communuties.`,
     },
     {
-      title: 'Can I import data from other tools?',
-      description: `Duis in maximus mauris, id eleifend mauris. Nam a fringilla arcu. Curabitur convallis, tellus non aliquet rhoncus, lacus massa auctor eros, in interdum lectus augue sed augue. Fusce tempor ex id faucibus efficitur.`,
+      title: 'What role does DLM play in your business?',
+      description: `Working with governmental and religious entities have required understanding of OSHA, Hippa, EEOC and FSLA(just to name a few) and we fully understand the unwritten societal nuance That lives in between concrete law. Scammers, Hustlers and hackers are our bread and butter and educate us on how to best protect our clients from any and all malficence. Thus, we not only create solutions from this understanding but are your confidant and consultant in matters of uncertainty which require empathy and at times robust discretion.`,
     },
     {
-      title: 'Can I cancel my plan at any time?',
-      description: `Nullam imperdiet sapien tincidunt erat dapibus faucibus. Vestibulum a sem nec lorem imperdiet scelerisque non sed lacus. Ut pulvinar id diam vitae auctor. Nam tempus, neque et elementum consectetur, ex ipsum pulvinar risus, vel sodales ligula tortor eu eros.`,
+      title: 'Are you available when you are needed.',
+      description: `We are available 24/7 for questions, and technical assistance is given according to priority and availability. BUt, all concerns and technical issues are dealt with immediately as humanly possible.`,
     },
   ],
   callToAction: {
@@ -313,7 +315,7 @@ export const faqs4Data: FAQsProps = {
   header: {
     title: 'Frequently Asked Questions',
     subtitle:
-      'Praesent rutrum purus in sem blandit, in consectetur mi pharetra. Ut sagittis sapien sit amet congue cursus. Nulla eu elementum ex, tincidunt semper nisi.',
+      'DLM understands the pain points that all businesses deal with. Is my service message clear? Is my product and or brand consistent with my content etc. etc?.',
     highlight: 'FAQS',
     position: 'center',
   },
@@ -325,28 +327,28 @@ export const faqs4Data: FAQsProps = {
       },
       items: [
         {
-          title: 'What do I need to start?',
-          description: `Nunc mollis tempor quam, non fringilla elit sagittis in. Nullam vitae consectetur mi, a elementum arcu. Sed laoreet, ipsum et vehicula dignissim, leo orci pretium sem, ac condimentum tellus est quis ligula.`,
+          title: 'What problems does DLM solve?',
+          description: `DLM understands the pain points that all businesses deal with. Is my service message clear? Is my product and or brand consistent with my content etc. etc? `,
         },
         {
-          title: 'How to install the NextJS + Tailwind CSS template?',
-          description: `Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer eleifend vestibulum nisl in iaculis. Mauris dictum ac purus vestibulum auctor. Praesent imperdiet lectus et massa faucibus, quis viverra massa rhoncus.`,
+          title: 'What values and principles guide our work?',
+          description: `Admittedely, Digitla Lion Media is representative of all values and core principals. We believe in true diversity. Discriminatory practices are unheard of in our organization, not only because we are literally comprised of all demographics, , but the data is clear in that the greatest strengths are within the most diverse groups.`,
         },
         {
-          title: "What's something that you completely don't understand?",
-          description: `Mauris vitae eros a dui varius luctus. Suspendisse rutrum, sapien nec blandit bibendum, justo sapien sollicitudin erat, id aliquam sapien purus quis leo. Aliquam vulputate vestibulum consectetur.`,
+          title: 'What is our experience?',
+          description: `Not only has our founder and CEO worked along side companies like The HardRock, Planet Hollywood and Entertainment behemoth Five Fingered Death Punch, but he also has experience with Social Services programs, Salvation Army, Reintegration Homes for veterans Like Clear Water Residential and is active in the Rising Stars Program at Riverside City College.`,
         },
         {
-          title: "What's an example of when you changed your mind?",
-          description: `Nunc dapibus lacinia ipsum ut elementum. Integer in pretium sapien. Ut pretium nisl mauris, ut rutrum justo condimentum id. Etiam aliquet, arcu at iaculis laoreet, est arcu egestas sapien, eget sollicitudin odio orci et nunc.`,
+          title: 'What is our team like?',
+          description: `Diverse, Diverse, Diverse. All races, religions, orientations and cultures are considered our family. Differences of ethos create solution sets that can only be achieved from the widest perspectives, so we are all inclusive and open to new paradigms-- if they contribute positively to our communuties.`,
         },
         {
-          title: 'What is something that you would really like to try again?',
-          description: `Duis in maximus mauris, id eleifend mauris. Nam a fringilla arcu. Curabitur convallis, tellus non aliquet rhoncus, lacus massa auctor eros, in interdum lectus augue sed augue. Fusce tempor ex id faucibus efficitur.`,
+          title: 'What role does DLM play in your business?',
+          description: `Working with governmental and religious entities have required understanding of OSHA, Hippa, EEOC and FSLA(just to name a few) and we fully understand the unwritten societal nuance That lives in between concrete law. Scammers, Hustlers and hackers are our bread and butter and educate us on how to best protect our clients from any and all malficence. Thus, we not only create solutions from this understanding but are your confidant and consultant in matters of uncertainty which require empathy and at times robust discretion.`,
         },
         {
-          title: 'If you could only ask one question to each person you meet, what would that question be?',
-          description: `Nullam imperdiet sapien tincidunt erat dapibus faucibus. Vestibulum a sem nec lorem imperdiet scelerisque non sed lacus. Ut pulvinar id diam vitae auctor. Nam tempus, neque et elementum consectetur, ex ipsum pulvinar risus, vel sodales ligula tortor eu eros.`,
+          title: 'Are you available when you are needed.',
+          description: `We are available 24/7 for questions, and technical assistance is given according to priority and availability. BUt, all concerns and technical issues are dealt with immediately as humanly possible.`,
         },
       ],
     },
@@ -411,41 +413,26 @@ export const faqs4Data: FAQsProps = {
 
 // CallToAction data
 export const callToActionData: CallToActionProps = {
-  title: 'Next.js + Tailwind CSS',
+  title: 'Digital Lion Media comes from my name De Leon which means the Lion in Latin and Spanish',
   subtitle:
-    'Aliquam sodales porttitor lacus ac tristique. Etiam posuere elit at leo feugiat sodales. Sed ac mauris quis sem tempor condimentum non at metus.',
+    'We pride ourselves in honesty, integrity, fearlessness and service.',
   callToAction: {
-    text: 'Get template',
+    text: 'Get in touch',
     href: 'https://github.com/teddythelion',
     icon: IconDownload,
   },
   items: [
     {
-      title: 'Get template',
-      description: 'Aliquam sodales est lectus, quis.',
-      href: 'https://github.com/teddythelion',
+      title: 'Learn More',
+      description: 'Check out the FAQqs',
+      href: '/faqs',
     },
     {
-      title: 'Learn more',
-      description: 'Class aptent taciti sociosqu ad litora torquent per conubia.',
-      href: '/',
+      title: 'Contact',
+      description: 'Contact Us.',
+      href: '/contact',
     },
-    {
-      title: 'Subscribe',
-      description: 'Morbi orci nunc, euismod ac dui id, convallis.',
-      form: {
-        icon: IconMail,
-        input: {
-          type: 'email',
-          name: 'email',
-          placeholder: 'Enter your email address',
-        },
-        btn: {
-          title: 'Subscribe',
-          type: 'submit',
-        },
-      },
-    },
+    
   ],
 };
 
@@ -708,107 +695,107 @@ export const teamData: TeamProps = {
   header: {
     title: 'Team Members',
     subtitle:
-      'Suspendisse in dui nibh. Donec enim leo, sodales et egestas id, malesuada non diam. Sed dapibus velit et mauris condimentum, vel imperdiet erat egestas.',
+      'We are a small company and most of the work is done by the founder me Teddy Deleon. My wife, and one emplyee are the backbone of clerical and accounting departments.',
     // highlight: 'Team',
   },
   teams: [
     {
-      name: 'Cindy Belcher',
-      occupation: 'SEO Consultant',
+      name: 'Teddy Deleon',
+      occupation: 'CEO and Founder',
       image: {
-        src: 'https://images.unsplash.com/photo-1637858868799-7f26a0640eb6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
-        alt: 'Cindy Belcher',
+        src: '/ted.jpg',
+        alt: 'Teddy Deleon',
       },
       items: [
         {
-          title: 'Know more on Twitter',
+          title: 'Twitter',
           icon: IconBrandTwitter,
-          href: '#',
+          href: 'https://twitter.com/aicodelabs',
         },
         {
-          title: 'Know more on Linkedin',
+          title: 'Linkedin',
           icon: IconBrandLinkedin,
-          href: '#',
+          href: 'https://www.linkedin.com/in/teddy-deleon-24908126b/',
         },
         {
           title: 'Contact by email',
           icon: IconMail,
-          href: '#',
+          href: 'digitalionmedia@gmail.com',
         },
       ],
     },
     {
-      name: 'Toby Foster',
-      occupation: 'Marketing Tech',
+      name: 'Jennifer Deleon',
+      occupation: 'Accounting Policing..',
       image: {
-        src: 'https://images.unsplash.com/photo-1614583224978-f05ce51ef5fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2172&q=80',
-        alt: 'Toby Foster',
+        src: '/jenn.png',
+        alt: 'Jennifer Deleon',
       },
       items: [
         {
           title: 'Know more on Twitter',
           icon: IconBrandTwitter,
-          href: '#',
+          href: 'https://www.linkedin.com/in/teddy-deleon-24908126b/',
         },
         {
           title: 'Know more on Linkedin',
           icon: IconBrandLinkedin,
-          href: '#',
+          href: 'https://www.linkedin.com/in/teddy-deleon-24908126b/',
         },
         {
           title: 'Contact by email',
           icon: IconMail,
-          href: '#',
+          href: 'jrdeleon2243@gmail.com',
         },
       ],
     },
     {
-      name: 'Clark Bourne',
-      occupation: 'Content Manager',
+      name: 'Teddy Deleon',
+      occupation: 'CEO and Founder',
       image: {
-        src: 'https://images.unsplash.com/photo-1639628735078-ed2f038a193e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80',
-        alt: 'Clark Bourne',
+        src: '/ted.jpg',
+        alt: 'Teddy Deleon',
       },
       items: [
         {
-          title: 'Know more on Twitter',
+          title: 'Twitter',
           icon: IconBrandTwitter,
-          href: '#',
+          href: 'https://twitter.com/aicodelabs',
         },
         {
-          title: 'Know more on Linkedin',
+          title: 'Linkedin',
           icon: IconBrandLinkedin,
-          href: '#',
+          href: 'https://www.linkedin.com/in/teddy-deleon-24908126b/',
         },
         {
           title: 'Contact by email',
           icon: IconMail,
-          href: '#',
+          href: 'digitalionmedia@gmail.com',
         },
       ],
     },
     {
-      name: 'Bella Chase',
-      occupation: 'UX Designer',
+      name: 'Teddy Deleon',
+      occupation: 'CEO and Founder',
       image: {
-        src: 'https://images.unsplash.com/photo-1628260412297-a3377e45006f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80',
-        alt: 'Bella Chase',
+        src: '/ted.jpg',
+        alt: 'Teddy Deleon',
       },
       items: [
         {
-          title: 'Know more on Twitter',
+          title: 'Twitter',
           icon: IconBrandTwitter,
-          href: '#',
+          href: 'https://twitter.com/aicodelabs',
         },
         {
-          title: 'Know more on Linkedin',
+          title: 'Linkedin',
           icon: IconBrandLinkedin,
-          href: '#',
+          href: 'https://www.linkedin.com/in/teddy-deleon-24908126b/',
         },
         {
           title: 'Contact by email',
           icon: IconMail,
-          href: '#',
+          href: 'digitalionmedia@gmail.com',
         },
       ],
     },
@@ -866,7 +853,7 @@ export const testimonialData: TestimonialProps = {
 // Pricing data
 export const pricingData: PricingProps = {
   header: {
-    title: 'Prices for a starting point. All work will',
+    title: 'Prices for a starting point. These Prices are Very flexible',
     subtitle:
       'We have to understand what you need for a quote to be accurate. I dont want to waste my or anyone elses time so we have to get it right at the beginning'
       // highlight: 'Pricing',
@@ -878,7 +865,7 @@ export const pricingData: PricingProps = {
       period: 'You approve I deploy',
       texts: [
         'I research your industry ',
-        'AI aggregates, and distils data',
+        'AI aggregates, and distill data',
         'I create keyword schemas that map to landing pages.',
         'Ai maps specific keywords to page layout and content',
       ],
@@ -1079,7 +1066,7 @@ export const contactData: ContactProps = {
     highlight: 'Contact',
   },
   content:
-    'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis nec ipsum orci. Ut scelerisque sagittis ante, ac tincidunt sem venenatis ut.',
+    'Send me a contact and Iwll get in touch asap. We can set up a meeting and I will go to wherever you are.',
   items: [
     {
       title: 'Our Address',
@@ -1088,12 +1075,12 @@ export const contactData: ContactProps = {
     },
     {
       title: 'Contact',
-      description: ['Mobile: +1 (951) 497-7005', 'Mail: ted@digitalionmedia.com'],
+      description: ['Mobile: +1 (951) 229-5779', 'Mail: digitalionmedia@gmail.com'],
       icon: IconPhoneCall,
     },
     {
       title: 'Working hours',
-      description: ['Monday - Friday: 08:00 - 17:00', 'Saturday & Sunday: 08:00 - 12:00'],
+      description: ['All day everyday'],
       icon: IconClock,
     },
   ],
@@ -1141,12 +1128,12 @@ export const contact2Data: ContactProps = {
     },
     {
       title: 'Contact',
-      description: ['Mobile: +1 (951-497-7005, Mail: ted@digitalionmedia.com'],
+      description: ['Mobile: +1 (951-229-5779, Mail: digitalionmedia@gmail.com'],
       icon: IconPhoneCall,
     },
     {
       title: 'Working hours',
-      description: ['Monday - Friday: 08:00 - 17:00', 'Saturday & Sunday: 08:00 - 12:00'],
+      description: ['All day everyday'],
       icon: IconClock,
     },
   ],
@@ -1373,11 +1360,11 @@ export const footerData2: FooterProps = {
     },
     {
       title: 'Phone',
-      texts: ['951-497-7005', '1-951-497-7005'],
+      texts: ['951-229-5779', '1-951-229-5779'],
     },
     {
       title: 'Email',
-      texts: ['ted@digitalionmedia.com', 'digitalionmedia.com'],
+      texts: ['digitalionmedia@gmail.com', 'digitalionmedia.com'],
     },
   ],
   socials: [
