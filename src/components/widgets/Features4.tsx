@@ -13,10 +13,10 @@ const Features4 = ({ header, items }: FeaturesProps) => (
           >
             <div>
               <div className="mb-6 flex justify-center">
-                {Icon && <Icon className="h-14 w-14 text-gray-700 dark:text-slate-200" />}
+                {Icon && <Icon className="h-14 w-14 text-white dark:text-slate-200" />}
               </div>
               <h3 className="mb-3 text-xl font-bold">{title}</h3>
-              <p className="text-gray-600 dark:text-slate-400">{description}</p>
+              <p className="text-white dark:text-white">{description}</p>
             </div>
             {link && (
               <div className="pt-4">
