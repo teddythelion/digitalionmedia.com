@@ -50,7 +50,7 @@ const Header = () => {
 
   return (
     <header
-      className={`top-0 z-40 mx-auto w-full flex-none bg-white transition-all duration-100 ease-in dark:bg-slate-1000 md:bg-white/90 md:backdrop-blur-sm dark:md:bg-slate-900/90 ${
+      className={`top-0 z-40 mx-auto w-full flex-none bg-white transition-all duration-100 ease-in dark:bg-slate-100 md:bg-white/90 md:backdrop-blur-sm dark:md:bg-slate-900/90 ${
         isSticky ? 'sticky' : 'relative'
       }`}
       id="header"
@@ -86,7 +86,7 @@ const Header = () => {
                   {links && links.length ? (
                     <>
                       <button
-                        className="flex items-center px-4 py-3 font-medium transition duration-150 ease-in-out hover:text-gray-900 dark:hover:text-white"
+                        className="flex items-center px-4 py-3 font-medium transition duration-150 ease-in-out hover:text-white dark:hover:text-white"
                         onClick={() => handleDropdownOnClick(index)}
                       >
                         {label} {Icon && <Icon className="ml-0.5 hidden h-3.5 w-3.5 md:inline" />}
@@ -113,7 +113,7 @@ const Header = () => {
                     </>
                   ) : (
                     <Link
-                      className="flex items-center px-4 py-3 font-medium transition duration-150 ease-in-out hover:text-gray-900 dark:hover:text-white"
+                      className="flex items-center px-4 py-3 font-medium transition duration-150 ease-in-out hover:text-white dark:hover:text-white"
                       href={href as string}
                       onClick={() => (isToggleMenuOpen ? handleToggleMenuOnClick() : handleDropdownOnClick(index))}
                     >
@@ -133,7 +133,7 @@ const Header = () => {
             {showToggleTheme && <ToggleDarkMode />}
             {showRssFeed && (
               <Link
-                className="text-muted inline-flex items-center rounded-lg p-2.5 text-sm hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+                className="text-muted inline-flex items-center rounded-lg p-2.5 text-sm hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:text-gray-300 dark:hover:bg-gray-700 dark:focus:ring-gray-700"
                 aria-label="RSS Feed"
                 href=""
               >
