@@ -12,18 +12,18 @@ const HeaderWidget = ({ header, titleClassname }: HeaderWidgetProps) => {
           } md:mx-auto md:mb-12`}
         >
           {highlight && (
-            <p className="text-base font-semibold uppercase tracking-wide text-primary-600 dark:text-primary-200">
+            <p className="text-base font-semibold uppercase tracking-wide text-white dark:text-primary-200">
               {highlight}
             </p>
           )}
           {title && (
             <h2
-              className={`font-heading mb-4 font-bold tracking-tight text-gray-900 dark:text-white ${titleClassname}`}
+              className={`font-heading mb-4 font-bold tracking-tight text-white dark:text-white ${titleClassname}`}
             >
               {title}
             </h2>
           )}
-          {subtitle && <p className="mx-auto mt-4 max-w-3xl text-xl text-gray-600 dark:text-slate-400">{subtitle}</p>}
+          {subtitle && <p className="mx-auto mt-4 max-w-3xl text-xl text-white dark:text-slate-400">{subtitle}</p>}
         </div>
       )}
     </div>
