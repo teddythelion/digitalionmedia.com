@@ -83,7 +83,7 @@ const Form = ({ title, description, inputs, radioBtns, textarea, checkboxes, btn
                   value={inputValues[index]}
                   onChange={changeInputValueHandler}
                   placeholder={placeholder}
-                  className="dark:bg-gray-600 mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"
+                  className=" bg-gray-600 dark:bg-gray-600 mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"
                 />
               </div>
             ))}
@@ -122,7 +122,7 @@ const Form = ({ title, description, inputs, radioBtns, textarea, checkboxes, btn
                 value={textareaValues}
                 onChange={(e) => changeTextareaHandler(e)}
                 placeholder={textarea.placeholder}
-                className="dark:bg-gray-600 mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"
+                className=" bg-gray-600 dark:bg-gray-600 mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"
               />
             </div>
           )}
