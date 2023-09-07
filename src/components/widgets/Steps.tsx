@@ -22,9 +22,9 @@ const Steps = () => {
                     {index !== items.length - 1 ? (
                       <div className="flex h-10 w-10 items-center justify-center rounded-full border-2 border-primary-900">
                         {Icon ? (
-                          <Icon className="h-6 w-6 text-primary-800 dark:text-slate-200" />
+                          <Icon className="h-6 w-6 text-white dark:text-slate-200" />
                         ) : (
-                          <IconArrowDown className="h-6 w-6 text-primary-800 dark:text-slate-200" />
+                          <IconArrowDown className="h-6 w-6 text-white dark:text-slate-200" />
                         )}
                       </div>
                     ) : (
@@ -37,11 +37,11 @@ const Steps = () => {
                       </div>
                     )}
                   </div>
-                  {index !== items.length - 1 && <div className="h-full w-px bg-gray-300 dark:bg-slate-500"></div>}
+                  {index !== items.length - 1 && <div className="h-full w-px bg-gray-800 dark:bg-slate-800"></div>}
                 </div>
                 <div className={`pt-1 ${index !== items.length - 1 ? 'pb-8' : ''}`}>
-                  {title && <p className="mb-2 text-xl font-bold text-gray-900 dark:text-slate-300">{title}</p>}
-                  {description && <p className="text-gray-600 dark:text-slate-400">{description}</p>}
+                  {title && <p className="mb-2 text-xl font-bold text-white dark:text-slate-300">{title}</p>}
+                  {description && <p className="text-gray-200 dark:text-slate-300">{description}</p>}
                 </div>
               </div>
             ))}
@@ -53,7 +53,7 @@ const Steps = () => {
               width={400}
               height={768}
               alt={image.alt}
-              className="inset-0 w-full rounded-md bg-gray-500 object-cover object-top shadow-lg dark:bg-slate-700 md:absolute md:h-full"
+              className="inset-0 w-full rounded-md bg-gray-800 object-cover object-top shadow-lg dark:bg-slate-800 md:absolute md:h-full"
             />
           )}
         </div>
