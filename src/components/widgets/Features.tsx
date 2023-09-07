@@ -18,7 +18,7 @@ const Features = ({ header, items }: FeaturesProps) => (
               </div>
               <div className="mb-0 md:mb-8">
                 <h3 className="mb-3 text-xl font-bold">{title}</h3>
-                <p className="text-gray-600 dark:text-slate-400">{description}</p>
+                <p className="text-gray-100 dark:text-slate-100">{description}</p>
               </div>
             </div>
           </div>
