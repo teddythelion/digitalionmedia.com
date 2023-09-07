@@ -748,57 +748,8 @@ export const teamData: TeamProps = {
           href: 'jrdeleon2243@gmail.com',
         },
       ],
-    },
-    {
-      name: 'Teddy Deleon',
-      occupation: 'CEO and Founder',
-      image: {
-        src: '/ted.jpg',
-        alt: 'Teddy Deleon',
-      },
-      items: [
-        {
-          title: 'Twitter',
-          icon: IconBrandTwitter,
-          href: 'https://twitter.com/aicodelabs',
-        },
-        {
-          title: 'Linkedin',
-          icon: IconBrandLinkedin,
-          href: 'https://www.linkedin.com/in/teddy-deleon-24908126b/',
-        },
-        {
-          title: 'Contact by email',
-          icon: IconMail,
-          href: 'digitalionmedia@gmail.com',
-        },
-      ],
-    },
-    {
-      name: 'Teddy Deleon',
-      occupation: 'CEO and Founder',
-      image: {
-        src: '/ted.jpg',
-        alt: 'Teddy Deleon',
-      },
-      items: [
-        {
-          title: 'Twitter',
-          icon: IconBrandTwitter,
-          href: 'https://twitter.com/aicodelabs',
-        },
-        {
-          title: 'Linkedin',
-          icon: IconBrandLinkedin,
-          href: 'https://www.linkedin.com/in/teddy-deleon-24908126b/',
-        },
-        {
-          title: 'Contact by email',
-          icon: IconMail,
-          href: 'digitalionmedia@gmail.com',
-        },
-      ],
-    },
+    },    
+   
   ],
 };
 
