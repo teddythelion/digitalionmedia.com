@@ -695,7 +695,7 @@ export const teamData: TeamProps = {
   header: {
     title: 'Team Members',
     subtitle:
-      'We are a small company and most of the work is done by the founder me Teddy Deleon. My wife, and one emplyee are the backbone of clerical and accounting departments.',
+      'We are a small company and most of the work is done by the founder me Teddy Deleon. My wife, and one employee are the backbone of clerical and accounting departments.',
     // highlight: 'Team',
   },
   teams: [
