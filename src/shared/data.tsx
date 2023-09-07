@@ -703,7 +703,7 @@ export const teamData: TeamProps = {
       name: 'Teddy Deleon',
       occupation: 'CEO and Founder',
       image: {
-        src: '/ted.jpg',
+        src: '/ted.png',
         alt: 'Teddy Deleon',
       },
       items: [
