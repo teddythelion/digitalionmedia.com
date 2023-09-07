@@ -15,7 +15,7 @@ const Content = ({ header, content, items, image, isReversed, isAfterContent }: 
       <div className="mx-auto max-w-6xl md:px-8">
         <div className={`md:flex ${isReversed ? 'md:flex-row-reverse' : ''} md:gap-16`}>
           <div className="self-center md:basis-1/2">
-            {content && <div className="mb-12 text-lg text-gray-600 dark:text-slate-400">{content}</div>}
+            {content && <div className="mb-12 text-lg text-gray-100 dark:text-slate-400">{content}</div>}
             {items && (
               <div className="space-y-8">
                 {items.map(({ title, description }, index) => (
@@ -27,9 +27,9 @@ const Content = ({ header, content, items, image, isReversed, isAfterContent }: 
                     </div>
                     <div className="ml-4">
                       {title && (
-                        <h3 className="text-lg font-medium leading-6 text-gray-900 dark:text-white">{title}</h3>
+                        <h3 className="text-lg font-medium leading-6 text-white dark:text-white">{title}</h3>
                       )}
-                      {description && <p className="mt-2 text-gray-600 dark:text-slate-400">{description}</p>}
+                      {description && <p className="mt-2 text-gray-100 dark:text-slate-400">{description}</p>}
                     </div>
                   </div>
                 ))}
